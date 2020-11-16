@@ -1,0 +1,11 @@
+
+<table class="table table-bordered table-striped m-5">
+    <tr>
+        <th>Event type</th>
+        <th>Event count</th>
+    </tr>
+    <tr *ngFor="let event of events">
+        <td>{{event.type}}</td>
+        <td>{{event.counter}}</td>
+    </tr>
+</table>
